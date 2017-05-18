@@ -1,0 +1,81 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/background.png');
+}
+#title {
+  background-color: #cd7139;
+  height: 100px;
+  width: 350px;
+  color: white;
+  line-height: 2.5;
+  padding-left: 25px;
+}
+.rulesBox{
+  height: 450px;
+  width: 500px;
+  background-color: #FCE6CF;
+}
+.rulesBox p {
+  padding: 5px 20px 15px 20px;
+  color: green;
+  font-size: 15px;
+}
+
+.numberBox {
+  background-color: #50C888;
+  height: 150px;
+  width: 300px;
+  display: inline-block;
+  float:left;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+#numbertoGuess{
+  font-size: 35px;
+  padding-top: 15px;
+  padding-left: 15px;
+  color: #500354;
+}
+.scoreBox {
+  background-color: #2BFEFB;
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  float:left;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.scoreBox p {
+  color: black;
+  font-size: 15px;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.btn {
+  display: inline-block;
+}
+.crystals {
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+}
+#totalScore {
+  color: white;
+  background-color:#14A297;
+  padding: 10px;
+  height: 40px;
+  width: 300px;
+  font-size: 15px;
+}
+
+#total {
+  color: white;
+  background-color:#14A297;
+  width: 300px;
+  height: 150px;
+  padding-top: 15px;
+  padding-left: 15px;
+  font-size: 22px;
+}
