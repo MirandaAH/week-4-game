@@ -19,7 +19,7 @@ html, body {
 .rulesBox p {
   padding: 5px 20px 15px 20px;
   color: green;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .numberBox {
@@ -31,7 +31,7 @@ html, body {
   margin-top: 10px;
   margin-right: 5px;
 }
-#numbertoGuess{
+#numbertoMatch{
   font-size: 35px;
   padding-top: 15px;
   padding-left: 15px;
@@ -53,15 +53,13 @@ html, body {
   padding-left: 10px;
 }
 
-.btn {
-  display: inline-block;
-}
 .crystals {
   height: 100px;
   width: 100px;
   border-radius: 5px;
+  display: inline-block;
 }
-#totalScore {
+#totalWords {
   color: white;
   background-color:#14A297;
   padding: 10px;
@@ -70,7 +68,7 @@ html, body {
   font-size: 15px;
 }
 
-#total {
+#totalScore {
   color: white;
   background-color:#14A297;
   width: 300px;

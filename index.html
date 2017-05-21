@@ -5,8 +5,8 @@
     <title>Crystals Collector</title>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <script src="assets/javascript/game.js" type="text/javascript"></script>
 </head>
 <body>
   <div class="container">
@@ -29,38 +29,32 @@
     <div class="row">
       <div class="col-md-12">
         <div class="numberBox">
-          <p id="numbertoGuess">Test</p>
+          <h5>Number to Match:<span id="numbertoMatch"></span></h5>
+
         </div>
         <div class="scoreBox">
-          <p>Wins:<span id="wins"></span></p>
-          <p>Losses:<span id="losses"></span></p>
+          <p>Wins:<span id="wins">0</span></p>
+          <p>Losses:<span id="losses">0</span></p>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
-        <div class="btn">
-          <img id="redcrystal" class="img-responsive crystals" src="assets/images/redcrystal.png" alt="Red Crystal">
-        </div>
-        <div class="btn">
-          <img id="bluecrystal" class="img-responsive crystals" src="assets/images/bluecrystal.png" alt="Blue Crystal">
-        </div>
-        <div class="btn">
-          <img id="yellowcrystal" class="img-responsive crystals" src="assets/images/yellowcrystal.png" alt="Yellow Crystal">
-        </div>
-        <div class="btn">
-          <img id="greencrystal" class="img-responsive crystals" src="assets/images/greencrystal.png" alt="Green Crystal">
-        </div>
+        <img class="button crystals" id="redcrystal" src="assets/images/redcrystal.png" alt="Red Crystal">
+        <img class="button crystals" id="bluecrystal" src="assets/images/bluecrystal.png" alt="Blue Crystal">
+        <img class="button crystals" id="yellowcrystal" src="assets/images/yellowcrystal.png" alt="Yellow Crystal">
+        <img class="button crystals" id="greencrystal" src="assets/images/greencrystal.png" alt="Green Crystal">
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
-        <p id="totalScore">Your total score is:</p>
+        <p id="totalWords">Your total score is:</p>
       </div>
       <div class="col-md-12">
-        <p id="total">test 0</span>
+        <p id="totalScore">0</p>
       </div>
     </div>
   </div>
+  <script src="assets/javascript/game.js" type="text/javascript"></script>
 </body>
 </html>
