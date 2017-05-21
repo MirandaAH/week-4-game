@@ -6,15 +6,17 @@ html, body {
 #title {
   background-color: #cd7139;
   height: 100px;
-  width: 350px;
+  width: 100%;
   color: white;
   line-height: 2.5;
   padding-left: 25px;
+  text-align: center;
 }
 .rulesBox{
-  height: 450px;
-  width: 500px;
+  height: 350px;
+  width: 100%;
   background-color: #FCE6CF;
+
 }
 .rulesBox p {
   padding: 5px 20px 15px 20px;
@@ -25,14 +27,14 @@ html, body {
 .numberBox {
   background-color: #50C888;
   height: 150px;
-  width: 300px;
+  width: 150px;
   display: inline-block;
   float:left;
   margin-top: 10px;
-  margin-right: 5px;
+  margin-left: 400px;
 }
 #numbertoMatch{
-  font-size: 35px;
+  font-size: 30px;
   padding-top: 15px;
   padding-left: 15px;
   color: #500354;
@@ -48,7 +50,7 @@ html, body {
 }
 .scoreBox p {
   color: black;
-  font-size: 15px;
+  font-size: 20px;
   padding-top: 15px;
   padding-left: 10px;
 }
@@ -58,6 +60,7 @@ html, body {
   width: 100px;
   border-radius: 5px;
   display: inline-block;
+  margin-top: 10px;
 }
 #totalWords {
   color: white;
@@ -65,7 +68,9 @@ html, body {
   padding: 10px;
   height: 40px;
   width: 300px;
-  font-size: 15px;
+  font-size: 20px;
+  margin-left: 425px;
+  margin-top: 10px;
 }
 
 #totalScore {
@@ -76,4 +81,6 @@ html, body {
   padding-top: 15px;
   padding-left: 15px;
   font-size: 22px;
+  margin-left: 425px;
+  margin-top: 10px;
 }
